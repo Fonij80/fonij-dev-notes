@@ -1,4 +1,4 @@
-# React.js project setup using vite ([step-by-step](https://ui.shadcn.com/docs/installation/vite))
+# Setup react.js project using vite ([step-by-step](https://ui.shadcn.com/docs/installation/vite))
 
 1- create project:
 
@@ -89,5 +89,5 @@ npx shadcn@latest add [component_name]
 9- run project:
 
 ```bash
-    npm run dev
+npm run dev
 ```
