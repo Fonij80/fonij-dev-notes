@@ -2,13 +2,19 @@ site_name: Fonij Dev Notes
 site_description: "Fonij developer cheatsheets & guides"
 site_url: https://fonij80.github.io/fonij-dev-notes/
 repo_url: https://github.com/fonij80/fonij-dev-notes/
+repo_name: Fonij Dev Notes
 edit_uri: edit/main/docs/
+copyright: Copyright &copy; 2026 Foroozan Iraji
 
 extra_css:
   - custom.css
 
 theme:
   name: material
+  logo: assets/fonij_logo.png
+  favicon: assets/fonij_logo.png
+  icon:
+    repo: fontawesome/brands/github
   palette:
     - scheme: default
       primary: indigo
@@ -23,17 +29,23 @@ theme:
   font:
     text: Inter
     code: JetBrains Mono
-  icon:
-    logo: material/language-javascript
-    favicon: material/language-javascript
   features:
     - content.code.copy
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.indexes
     - navigation.expand
+    - navigation.path
+    - navigation.top
     - search.suggest
     - search.highlight
     - content.tabs
+    - navigation.footer
 
 nav:
   - 🚀 Home: index.md
@@ -57,6 +69,18 @@ nav:
           - Multilinguality: reactjs/setups/multilinguality-setup.md
           - Deploy Setup: reactjs/setups/deploy-setup.md
   - 🏗️ Software Engineering: softwareengineering/design-patterns.md
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Fonij80
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/Fonij2002
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/foroozan-iraji
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<forooz.iraji@gmail.com>
 
 plugins:
   - search

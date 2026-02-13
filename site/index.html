@@ -51,6 +51,8 @@
       
     
     
+      <link rel="stylesheet" href="custom.css">
+    
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -74,11 +76,6 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
-      
-        
-        <a href="#fonij-dev-notes" class="md-skip">
-          Skip to content
-        </a>
       
     </div>
     <div data-md-component="announce">
@@ -268,26 +265,6 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    🚀 Home
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
       
       <a href="." class="md-nav__link md-nav__link--active">
         
@@ -305,36 +282,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#featured-guides" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🎯 Featured Guides
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -1114,27 +1061,6 @@
   
   
   
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#featured-guides" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🎯 Featured Guides
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -1156,55 +1082,35 @@
   
 
 
-<h1 id="fonij-dev-notes">🚀 Fonij Dev Notes</h1>
-<blockquote>
-<p>Modern developer cheatsheets &amp; guides. Searchable. Copy-ready. Always updated.</p>
-</blockquote>
-<div align="center">
+  <h1>🚀 Home</h1>
 
-![Dev Notes Banner](https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80)
+<div class="cards-grid" dir="ltr">
 
-**Quick Access to Your Dev Resources**
+  <a href="reactjs" class="card">
+    <div class="card__icon">⚛️</div>
+    <div class="card__title">ReactJS</div>
+    <!-- <div class="card__subtitle">Complete Guide & Setups</div> -->
+  </a>
 
-</div>
+  <a href="django" class="card">
+    <div class="card__icon">🐍</div>
+    <div class="card__title">Django</div>
+  </a>
 
-<h2 id="featured-guides">🎯 Featured Guides</h2>
-<table>
-<thead>
-<tr>
-<th>Category</th>
-<th>Resources</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>🚀 ReactJS</strong></td>
-<td><a href="reactjs/guide/react-guide/">React Guide →</a> • <a href="reactjs/conventions/naming/">Naming Conventions →</a> • <a href="reactjs/setups/project-setup/">Project Setup →</a> • <a href="reactjs/setups/routing-setup/">Routing →</a> • <a href="reactjs/setups/theme-setup/">Theme →</a> • <a href="reactjs/setups/multilinguality-setup/">Multilang →</a> • <a href="reactjs/setups/deploy-setup/">Deploy →</a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><strong>🐍 Django</strong></td>
-<td><a href="django/django/">Django Guide →</a> • <a href="django/conventions/naming/">Naming Conventions →</a></td>
-</tr>
-<tr>
-<td><strong>🤖 AI</strong></td>
-<td><a href="ai/ai/">AI Notes →</a></td>
-</tr>
-<tr>
-<td><strong>🏗️ Software Engineering</strong></td>
-<td><a href="softwareengineering/design-patterns/">Design Patterns →</a></td>
-</tr>
-</tbody>
-</table>
-<div align="center">
+  <a href="nextjs" class="card">
+    <div class="card__icon">⚡</div>
+    <div class="card__title">Next.js</div>
+  </a>
 
-**💡 Pro Tip:** Use <kbd>Ctrl+K</kbd> or <kbd>⌘+K</kbd> for instant search!
+  <a href="ai" class="card">
+    <div class="card__icon">🤖</div>
+    <div class="card__title">AI</div>
+  </a>
 
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/YOUR_USERNAME/fonij-dev-note)
-[![Edit on GitHub](https://img.shields.io/badge/Edit_on_GitHub-FD853D?logo=github)](https://github.com/YOUR_USERNAME/fonij-dev-note/edit/main/docs/index.md)
+  <a href="softwareengineering" class="card">
+    <div class="card__icon">🏗️</div>
+    <div class="card__title">Software Engineering Essentials</div>
+  </a>
 
 </div>
 
