@@ -53,6 +53,8 @@
       
     
     
+      <link rel="stylesheet" href="../custom.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -1061,25 +1063,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#quick-navigation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        📋 Quick Navigation
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -1104,51 +1087,45 @@
 <blockquote>
 <p>Modern React from project setup to advanced deployments. Production-ready patterns.</p>
 </blockquote>
-<div align="center">
-  <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&auto=format&fit=crop" alt="React" width="400">
-</div>
+<div class="cards-grid" dir="ltr">
 
-<h2 id="quick-navigation">📋 Quick Navigation</h2>
-<table>
-<thead>
-<tr>
-<th>Category</th>
-<th>Resources</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>📖 <strong>Core Concepts</strong></td>
-<td><a href="guide/react-guide/">React Guide →</a></td>
-</tr>
-<tr>
-<td>⚖️ <strong>Best Practices</strong></td>
-<td><a href="conventions/naming/">Naming Conventions →</a></td>
-</tr>
-<tr>
-<td>🚀 <strong>Project Setup</strong></td>
-<td><a href="setups/project-setup/">Project Setup →</a></td>
-</tr>
-<tr>
-<td>🛣️ <strong>Routing</strong></td>
-<td><a href="setups/routing-setup/">Routing Setup →</a></td>
-</tr>
-<tr>
-<td>🎨 <strong>Theming</strong></td>
-<td><a href="setups/theme-setup/">Theme Setup →</a> 🌙</td>
-</tr>
-<tr>
-<td>🌐 <strong>i18n</strong></td>
-<td><a href="setups/multilinguality-setup/">Multilinguality →</a></td>
-</tr>
-<tr>
-<td>☁️ <strong>Deployment</strong></td>
-<td><a href="setups/deploy-setup/">Deploy Setup →</a></td>
-</tr>
-</tbody>
-</table>
-<div align="center">
-**⭐ Pro Tip:** Each guide has copyable code blocks for instant use!
+  <a href="guide/react-guide.md" class="card">
+    <div class="card__icon">📖</div>
+    <div class="card__title">React Guide</div>
+    <!-- <div class="card__subtitle">Core Concepts</div> -->
+  </a>
+
+  <a href="conventions/naming" class="card">
+    <div class="card__icon">⚖️</div>
+    <div class="card__title">Naming Conventions</div>
+  </a>
+
+  <a href="setups/project-setup" class="card">
+    <div class="card__icon">🚀</div>
+    <div class="card__title">Project Setup</div>
+  </a>
+
+  <a href="setups/routing-setup" class="card">
+    <div class="card__icon">🛣️</div>
+    <div class="card__title">Routing</div>
+  </a>
+
+  <a href="setups/theme-setup" class="card">
+    <div class="card__icon">🎨</div>
+    <div class="card__title">Theming</div>
+  </a>
+
+  <a href="setups/multilinguality-setup" class="card">
+    <div class="card__icon">🌐</div>
+    <div class="card__title">i18n</div>
+  </a>
+
+  <a href="setups/deploy-setup" class="card">
+    <div class="card__icon">☁️</div>
+    <div class="card__title">Deployment</div>
+  </a>
+
+</div>
 
 
 
